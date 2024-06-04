@@ -1,0 +1,217 @@
+/* ============================================Home============================================= */
+
+.home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-home {
+    background-color: rgba(214, 46, 51, 0.6)
+}
+
+.content h2,
+.content p,
+.open,
+.close,
+.home ul li a {
+    color: #ffffff;
+}
+
+.open,
+.close {
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+
+.content p {
+    line-height: 1.5rem;
+}
+
+.open {
+    font-size: 1.5rem;
+}
+
+.home ul li a {
+    text-decoration: none;
+}
+
+.home ul li a:hover {
+    color: #801c1f;
+}
+
+.close:hover {
+    color: #801c1f;
+}
+
+.home ul {
+    padding-left: -2rem;
+    padding-right: 5rem;
+}
+
+.openIcon {
+    left: 1.3rem;
+}
+
+.bg-nav {
+    background-color: #111111;
+    z-index: 99999;
+    left: -244.562px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: auto;
+    }
+}
+
+/* ============================================Duration============================================= */
+
+.slider h3 {
+    background-color: #e68285;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.slider .textcontent {
+    background-color: #cccccc;
+    display: none;
+}
+
+.slider .P-content {
+    background-color: #cccccc;
+    display: block;
+}
+
+.slider {
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+/* ============================================Details============================================= */
+
+.slidertwo {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-slider {
+    background-color: rgba(214, 46, 51, 0.6);
+    padding-bottom: 4rem;
+}
+
+.time,
+.days {
+    border: 0.1rem solid white;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.time,
+.days span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.slidtime {
+    padding-top: 6rem;
+}
+
+/* @media screen and (max-width: 768px) {
+    .slidertwo {
+       
+    }
+} */
+
+/* ============================================Contact============================================= */
+
+strong {
+    font-size: 1.125rem;
+}
+
+.head,
+.icons p {
+    color: #777777;
+    margin-top: 12rem;
+}
+
+.pred,
+.colred {
+    color: #d62e33;
+}
+
+.textcoler {
+    color: #212529;
+}
+
+.tarea {
+    padding-bottom: 8rem;
+}
+
+.head h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+.icons i {
+    border: 1px solid slategray;
+}
+
+.icons i:hover {
+    color: white;
+    background-color: #d62e33;
+}
+
+
+@media screen and (max-width: 1024px)  {
+
+    .content h2 {
+        font-size: 1.5rem;
+        line-height: 4.5rem;
+    }
+
+    .content p {
+        line-height: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .content h2 {
+        font-size: 1.5rem;
+        line-height: 4.5rem;
+    }
+
+    .content p {
+        line-height: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 380px) and (max-width: 768px) {
+
+    .content h2 {
+        font-size: 1.5rem;
+        line-height: 4.5rem;
+    }
+
+    .content p {
+        line-height: 1.5rem;
+    }
+}
